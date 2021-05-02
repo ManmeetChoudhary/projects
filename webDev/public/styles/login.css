@@ -1,0 +1,136 @@
+.header{
+    background-color:rgb(238, 218, 127);
+    height: 6rem;
+}
+#reload > img {
+    margin-top: -.5rem;
+}
+#icon {
+    margin-top: -.7rem; 
+}
+#logo {
+    border-radius: 10px;
+    margin-top: -0.7rem;
+}
+.header > a {
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+.header > button {
+    border-width: 1px;
+}
+#loginBtn {
+    margin-left: 68%;
+    margin-top: 1.85rem;
+    width: 6rem;
+    height: 3.2rem;
+    font-size: 110%;
+    border-radius: 5px;
+    border-color:#d3a62d;
+    background-color: #d3a62d;
+}
+#createAccountBtn {
+    margin-top: 1.88rem;
+    margin-left: 2rem;
+    height: 3.2rem;
+    border-radius: 5px;
+    font-size: 110%;
+    border-color:#d3a62d;
+    background-color: #d3a62d;
+}
+
+.header > a, 
+.header > button {
+    float: left;
+}
+#reload > p,
+#reload > img {
+    float: left;
+}
+#mainBody {
+    height: 52.6rem;
+    background-color: black;
+    overflow-y: hidden;
+}
+#logindiv {
+    display: grid;
+    grid-template-rows: 4rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 47.5rem;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url('../images/logindivbackground.png');
+}
+.loginheader {
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logindiv > p {
+    font-size: 200%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#logindiv > div {
+    font-size: 150%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#coloured {
+    color:rgb(212, 143, 78);
+}
+#signIn {
+    display: grid;
+    grid-template-rows: 2rem 5rem 2rem 5rem;
+    margin-top: -10rem;
+    margin-left: 2rem;
+}
+#signIn > label {
+    font-size: 125%;
+}
+#signIn > input {
+    font-size: 150%;
+    width: 21rem;
+    height: 3rem;
+}
+#submit {
+    font-size: 150%;
+    width: 13rem;
+    height: 4.5rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    background-color: rgb(94, 228, 94);
+}
+#submit > a {
+    width: 13rem;
+    height: 4.5rem;
+    opacity: 1;
+}
+#changeHTML {
+    display: grid;
+    grid-template-rows: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    height: 50rem;
+}
+#htmlBody {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: 18rem;
+    border-radius: 20px;
+    background-image: url('../images/logindivbackground.png');
+}
+#htmlBody > p {
+    font-size: 200%;
+    padding: 5rem;
+    color: black;
+}

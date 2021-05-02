@@ -1,0 +1,294 @@
+.header{
+    background-color:rgb(255, 241, 179);
+    height: 6rem;
+}
+.header > a {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#reload > p {
+    color: black;
+    margin-top: 6px;
+    scale: 150%;
+}
+#logo {
+    border-radius: 10px;
+}
+#reload {
+    margin-left: 0.5rem;
+}
+#logo:hover {
+    border-color: rgb(105, 105, 105);
+    border-style: solid;
+    border-width: 1px;
+}
+#reload > p,
+#reload > img {
+    float: left;
+}
+.searchBar {
+    float: left;
+    margin-left: 25rem;
+    margin-top: .634rem;
+    width: 40rem;
+    position: relative;
+    display: flex;
+}
+.searchBar > input {
+    width: 100%;
+    border: 3px solid #d3a62d;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    color: #000000;
+}
+.searchBar > button {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #d3a62d;
+    background: #d3a62d;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.dropdown {
+    margin-left: 20rem;
+    position: relative;
+    display: inline-block;
+}
+.dropdown > button {
+    background-color: #d3a62d;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+#categories {
+    display: none;
+    position: absolute;
+    margin-left: -1.5rem;
+    background-color: rgb(255, 241, 179);
+    min-width: 160px;
+    border-color: #d3a62d;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 5;
+}
+#categories:hover {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+#categories > p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#categories > p:hover {
+    background-color: #d3a62d;
+}
+.dropdown:hover #categories {
+    display: block;
+}
+
+#foodContainer {
+    display: none;
+}
+#italian:hover #foodContainer {
+    display: block;
+}
+#logout {
+    margin-top: .9rem;
+    position: relative;
+    display: inline-block;
+}
+#logout > a {
+    margin-left: 3rem;
+    padding: .95rem;
+    color: rgb(0, 0, 0);
+    border-color: #d3a62d;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #d3a62d;
+}
+
+
+#body {
+    height: 52.6rem;
+    background-image: url('../images/loginbackground1.png');
+}
+#dailySpecial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100rem;
+    opacity: .95;
+    height: 52.6rem;
+    border-radius: 5px;
+}
+#special {
+    margin-top: 5rem;
+    color: rgb(75, 31, 31);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+#special > label {
+    font-size: 250%
+}
+#special > p {
+    color: rgb(0, 0, 0);
+    margin-top: 3rem;
+    font-size: 175%;
+}
+#item {
+    margin-top: 5rem;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    overflow-y: hidden;
+}
+#itemTextField {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+    height: 4rem;
+}
+#item > label {
+    margin-left: 10px;
+    color: #000000;
+    font-size: 120%;
+}
+
+#category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100rem;
+    opacity: .95;
+    height: 52.6rem;
+    border-radius: 5px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+#darkened {
+    position: relative;
+    width: auto;
+    height: 52.6rem;
+    opacity: .9;
+    background-color: rgb(29, 29, 29);
+    z-index: 0;
+}
+#itemDisplay {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    height: 52.6rem;
+    border-radius: 5px;
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+#itemDisplay > button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 300%;
+    margin-left: 95%;
+    margin-top: -.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+#itemDisplay > button:hover {
+    color:rgb(185, 92, 92);
+}
+#itemDisplay > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32rem;
+}
+#itemDisplay > div > img {
+    margin-top: 3rem;
+    margin-left: 7.5rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10px;
+}
+#itemDisplay > div > div {
+    height: 30rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+#itemHeader {
+    margin-top: 5.4rem;
+    margin-left: 4rem;
+    font-size: 250%;
+}
+#itemDisplay > div > div > p {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-size: 150%;
+}
+#itemDisplay > div > div > p > span {
+    margin-left: 2rem;
+}
+#itemDisplay > h {
+    margin-left: 4rem;
+    width: 50rem;
+    color: #000000;
+    font-size: 200%;
+}
+#itemDisplay > p {
+    margin-left: 4rem;
+    width: 50rem;
+    font-size: 150%;
+}
+#spacer {
+    height: 7rem;
+}
+#hiddenName {
+    display: none;
+}
+#ingredientsInfo {
+    display: none;
+}
+#instructionInfo {
+    display: none;
+}
+#sendMail {
+    display: grid;
+    padding: 15px;
+    margin-top: 10rem;
+    margin-left: 29rem;
+}
+#emailHeader {
+    color: rgb(26, 26, 26);
+    font-size: 150%;
+    margin-top: -6rem;
+    margin-left: -9rem;
+}
+#emailInfo {
+    scale: 175%;
+    width: 15rem;
+}
+#submitMail {
+    font-size: 150%;
+    width: 13rem;
+    margin-top: 3rem;
+    height: 4.5rem;
+    border-radius: 15px;
+    background-color: rgb(94, 228, 94);
+}
